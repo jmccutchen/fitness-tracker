@@ -74,7 +74,7 @@ app.get('/exercise', (req, res) => {
 
 mongoose
     .connect(process.env.MONGODB_URI ||
-     "mongodb://localhost/workout_db", 
+     "mongodb://user1:password1@ds141924.mlab.com:41924/heroku_qgq2wr5g", 
      { 
          useNewUrlParser: true 
     })
